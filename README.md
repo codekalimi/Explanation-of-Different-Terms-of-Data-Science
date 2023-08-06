@@ -1,5 +1,7 @@
 # Explanation-of-Different-Terms-of-Data-Science
 #
+
+
 ### In sklearn Linear Regression why we calculate **variance**
 
 ![Variance Robot](data/images/variance_robot.png)
@@ -13,6 +15,8 @@ The "variance" in the robot's lines tells us how much the lines change when we g
 But if the variance is low, it means the robot's lines are more stable and don't change too much with different sets of dots. This is good because it shows that the robot can draw a good line consistently, no matter what dots you give it.
 
 So, when we talk about "variance" in linear regression, we are looking at how much the lines drawn by the robot can change with different data. Low variance is better because it means the robot is good at drawing accurate lines no matter what data you give it!
+
+
 
 ### What is R-squared
 
@@ -28,6 +32,8 @@ The R-squared score helps us know if the superhero is doing a good job or not. T
 
 So, in summary, R-squared is like a measure of how well the superhero can predict car speeds based on engine size. A higher R-squared means more accurate predictions, and a lower R-squared means less accurate predictions. It's a way to know how good the superhero's superpower of prediction really is!
 
+
+
 ### What is MSE (Mean Squared Error)
 
 ![MSE Dart](data/images/dart_target.png)
@@ -41,6 +47,8 @@ So, if your friend's darts are very close to the center, the MSE will be small. 
 In the world of math and data, we use MSE to measure how well a prediction model is doing. Instead of darts, we have predictions, and instead of the target center, we have the real correct values. The model's "accuracy" is like how close its predictions are to the correct values. A low MSE means the model's predictions are very close to the real values, which is good. A high MSE means the predictions are not accurate, and the model needs improvement.
 
 So, in simple terms, MSE is like a way to measure how accurate a prediction model is, just like your friend's darts show how accurate they are at hitting the center of the target. The lower the MSE, the better the model is at making accurate predictions!
+
+
 
 ### What is Residual
 
@@ -60,6 +68,8 @@ If the residuals are close to zero, it means the model is doing a good job in it
 
 So, in simple terms, residuals are like the "mistakes" made by a magical scale or a prediction model. By looking at these residuals, we can tell how accurate the scale or the model is in its predictions. The closer the residuals are to zero, the better the predictions are!
 
+
+
 ### Explain Mean, STD and Confidence Interval
 
 ![Confidence Interval](data/images/confidence_interval.jpeg)
@@ -75,6 +85,8 @@ Now, imagine you have a big jar of chocolates, and you want to know how many cho
 
 For example, if you count 20 chocolates in your sample, and the confidence interval is 18 to 22 chocolates, it means you are pretty confident that the actual number of chocolates in the jar is somewhere between 18 and 22. The larger the sample size, the more confident you can be about your estimate.
 
+
+
 ### What is Coefficient
 
 ![Coefficient](data/images/icecream_coefficient.png)
@@ -88,6 +100,8 @@ For example, let's say the machine's coefficient is 2. That means, for every one
 The coefficients are like magic keys that help the machine make the right predictions. They tell the machine how much one thing affects the other thing.
 
 So, in simple terms, coefficients are special numbers that help the magic machine predict how much ice cream you want to eat based on how hot it is outside. They are like the secret sauce that makes the machine work!
+
+
 
 ### Explain *coefficient* in Linear Regression
 
@@ -105,6 +119,8 @@ The coefficient is essential because it helps your superhero make predictions. F
 
 In summary, the coefficient in linear regression is like a special number that determines the slope and position of the best-fitting line on a graph. It helps the superhero make predictions about one variable (test scores) based on another variable (hours studied). It's like the superhero's superpower to draw the most accurate line that represents the relationship between the two variables.
 
+
+
 ### What is Intercept
 
 ![Intercept](data/images/intercept_line.png)
@@ -118,6 +134,8 @@ For example, if the intercept is 3, it means your friend starts drawing the line
 Once your friend has the starting point, they use their magic pen (called the coefficient) to draw the line in the right direction. The coefficient helps them decide if the line should go up or down and how steep or flat it should be.
 
 So, in simple terms, the intercept is like the magical starting point for your friend's line. It's where the line begins, and then the coefficient helps draw the line in the right way. Together, the intercept and coefficient help your friend draw the perfect line that goes through all the dots you gave them.
+
+
 
 ### What is Loss Function
 
@@ -134,6 +152,8 @@ The loss function measures these errors by calculating how far off the model's p
 The goal in machine learning is to minimize the loss, meaning we want to make the errors as small as possible. To do this, we use optimization algorithms that adjust the model's parameters (like coefficients in linear regression) to find the best values that give us the smallest loss.
 
 So, in simple terms, the loss function is like a way to measure how well our model is doing at making predictions. Smaller loss means better predictions, just like hitting the target closer to the bullseye means you are good at the dart game!
+
+
 
 ### What is Confusion Matrix
 
@@ -163,6 +183,8 @@ The confusion matrix helps us see how well your friend is doing in the game. We 
 
 So, in simple terms, the confusion matrix is like a special scoreboard that shows how well your friend is identifying animals. It's a way to keep track of the right and wrong decisions in the game!
 
+
+
 ### Application of Confusion Matrix
 
 ![Cofusion Matrix](data/images/confusion_matrix.png)
@@ -184,6 +206,8 @@ The confusion matrix is a fundamental tool in machine learning for evaluating th
 7. Anomaly Detection: In some cases, one class represents normal data, and other classes represent anomalies. The confusion matrix helps identify how well the model is detecting anomalies.
 
 Overall, the confusion matrix is a versatile tool that helps us gain a deeper understanding of a classification model's performance and make informed decisions when building and improving machine learning models. It provides valuable information to assess the model's accuracy, generalization ability, and areas where it may need improvement.
+
+
 
 ### What is performance metrics elements such as accuracy, precision, recall (sensitivity), specificity, and F1-score 
 
@@ -209,6 +233,8 @@ Each performance metric gives you a different perspective on your friend's perfo
 
 In summary, performance metrics are like special tools that give you more detailed scores about your friend's performance in a game. Accuracy tells you how good they are overall, precision focuses on correct positive guesses, recall on finding all positive cases, specificity on identifying negative cases, and F1-score combines precision and recall into a balanced measure. It's like having a complete set of scores to see how well your friend is playing the game!
 
+
+
 ### When we'll use the above performance metrics?
 
 ![Perfomance Metrics](data/images/red_blue_ball.png)
@@ -229,6 +255,8 @@ So, in this game, accuracy shows how good your friend is at putting balls in the
 
 By using these special numbers, you can see how well your friend is doing in the game and cheer them on to get better and better at it!
 
+
+
 ### What is Logistic Regression 
 
 ![Logistic Regression](data/images/logistic_regression.png)
@@ -244,6 +272,8 @@ For example, if the probability of a fruit being an apple is 0.8, the box is qui
 Logistic regression helps us classify things into two groups (like apples and oranges) based on their features. It's like a magical tool that uses probabilities to make smart decisions and sort things out!
 
 In summary, logistic regression is like a magical box that predicts if a fruit is an apple or an orange. It uses features of the fruit to calculate probabilities and then decides if it's an apple or an orange. It's a magical way to classify things!
+
+
 
 ### What is Ridge Regression
 
@@ -265,6 +295,8 @@ Ridge Regression helps you find a good balance between fitting the data well and
 
 In summary, Ridge Regression is like a magical tool that helps you draw the best-fitting line on a graph while making sure the line is not too steep or wobbly. It adds a little twist to the slope of the line, making it more stable and less prone to overfitting. It's like having a magical helper to draw the perfect line for you!
 
+
+
 ### What is Lasso Regression
 
 ![Lasso Regression](data/images/lasso_regression.png)
@@ -285,6 +317,8 @@ Here's how it works:
 
 In summary, Lasso Regression is like a magical tool that helps you draw the best-fitting line on a graph while making the model simpler. It does this by setting some coefficients to zero, focusing only on the most important features. It's like having a smart pen that knows which parts of the line matter the most!
 
+
+
 ### Explain Grid Search in Cross-Validation
 
 ![Grid Search In Cross-Validation](data/images/simple_maze.png)
@@ -304,6 +338,8 @@ Here's how it works:
 4. By trying all the paths and testing them with Cross-Validation, you can see which combination of parameters gives the best results on average. It's like finding the path in the maze that leads you to the treasure with the fewest wrong turns.
 
 In summary, Grid Search in Cross-Validation is like having a magical map that helps you try out different combinations of model parameters to find the best settings for your machine learning model. It's like testing all the paths in a maze to discover the one that leads you to the treasure with the fewest wrong turns. It's a powerful tool to find the optimal settings for your model and improve its performance on the problem you are trying to solve.
+
+
 
 ### Explain Random Search in Cross-Validation
 
