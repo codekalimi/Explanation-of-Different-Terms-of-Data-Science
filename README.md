@@ -2,7 +2,7 @@
 #
 ### In sklearn Linear Regression why we calculate **variance**
 
-![Variance Robot](https://drive.google.com/file/d/1_xZdok6HxuALUWso620DyCPASuvdNDIq/view?usp=drive_link)
+![Variance Robot](data/images/variance_robot.png)
 
 Imagine you have a special robot that can draw lines on paper. This robot's job is to draw the best possible straight line on a graph that goes through a bunch of dots you've marked. The goal is to draw the line as close as possible to all the dots.
 
@@ -16,7 +16,7 @@ So, when we talk about "variance" in linear regression, we are looking at how mu
 
 ### What is R-squared
 
-![R-Squared Superhero](https://drive.google.com/file/d/1UkIlIZrFD_yS8rTkOuNbht_IwWNblrrn/view?usp=sharing)
+![R-Squared Superhero](data/images/superhero_car.png)
 
 Imagine you have a superhero who can fly and save people from danger. Now, this superhero's job is to predict how fast a car can go based on its engine size. So the superhero looks at lots of cars and makes predictions.
 
@@ -30,7 +30,7 @@ So, in summary, R-squared is like a measure of how well the superhero can predic
 
 ### What is MSE (Mean Squared Error)
 
-![MSE Dart](https://drive.google.com/file/d/1uSlr-DP-jSixg2QK6dKPRFRNfDhFX8V1/view?usp=drive_link)
+![MSE Dart](data/images/dart_target.png)
 
 Imagine you have a friend who loves to play darts. They throw darts at a target, and you want to know how good they are at hitting the bullseye. The closer their darts land to the center, the better they are.
 
@@ -44,7 +44,7 @@ So, in simple terms, MSE is like a way to measure how accurate a prediction mode
 
 ### What is Residual
 
-![Residual Machine](https://drive.google.com/file/d/1wu4UspMVgT6T_ST22salKimmT2LcVrQw/view?usp=drive_link)
+![Residual Machine](data/images/residual_machine.png)
 
 Imagine you have a magical scale that can predict the weight of objects. You place different objects on the scale, and it gives you its predictions of the weight. However, the scale is not perfect, and sometimes it makes mistakes in its predictions.
 
@@ -62,7 +62,7 @@ So, in simple terms, residuals are like the "mistakes" made by a magical scale o
 
 ### Explain Mean, STD and Confidence Interval
 
-![Confidence Interval](https://drive.google.com/file/d/1m0M7k_uOsXQ2eWzthCunyY8YgnrEzR2F/view?usp=drive_link)
+![Confidence Interval](data/images/confidence_interval.jpeg)
 
 Mean:
 The mean is like finding the "average" amount of chocolates each of your friends should get. Imagine you have a bunch of chocolates, and you want to know how many chocolates each of your friends should receive so that everyone gets an equal share. You count the chocolates and divide the total number by the number of friends to find the mean or average number of chocolates each friend should get.
@@ -77,7 +77,7 @@ For example, if you count 20 chocolates in your sample, and the confidence inter
 
 ### What is Coefficient
 
-![Coefficient](https://drive.google.com/file/d/1DGQwXWu6FuZ7rTou0aQqMw8k9ks9ttmm/view?usp=drive_link)
+![Coefficient](data/images/icecream_coefficient.png)
 
 Imagine you have a special machine that can predict how much ice cream you can eat based on how hot it is outside. The more the sun shines, the more ice cream you want to eat.
 
@@ -91,7 +91,7 @@ So, in simple terms, coefficients are special numbers that help the magic machin
 
 ### Explain *coefficient* in Linear Regression
 
-![Coefficient in Linear Regression](https://drive.google.com/file/d/1-bEDnMcaxhSumc-RCxzauFqY_Ui80tBk/view?usp=drive_link)
+![Coefficient in Linear Regression](data/images/superhero_drawing_line.png)
 
 Imagine you have a magical superhero who can draw straight lines on a graph. Your superhero's job is to draw the best possible straight line that fits a bunch of points on the graph.
 
@@ -107,7 +107,7 @@ In summary, the coefficient in linear regression is like a special number that d
 
 ### What is Intercept
 
-![Intercept](https://drive.google.com/file/d/1Gmo7vUAZMPPOIFU8GKVwHe7rEE_HItNj/view?usp=drive_link)
+![Intercept](data/images/intercept_line.png)
 
 Imagine you have a friend who loves to draw lines on a piece of paper. One day, you give your friend some dots on the paper and ask them to draw a line that goes through the dots.
 
@@ -121,7 +121,7 @@ So, in simple terms, the intercept is like the magical starting point for your f
 
 ### What is Loss Function
 
-![Loss Function](https://drive.google.com/file/d/1C8ChR0kv0xlSkePB2VXVPVBZlawwzvJb/view?usp=drive_link)
+![Loss Function](data/images/dart_loss_function.png)
 
 Imagine you are playing a game where you need to hit a target with a dart. The goal is to throw the dart as close to the center of the target as possible. But, as with any game, you won't always hit the bullseye perfectly; your throws will have some distance away from the center.
 
@@ -137,7 +137,7 @@ So, in simple terms, the loss function is like a way to measure how well our mod
 
 ### What is Confusion Matrix
 
-![Confusion Matrix](https://drive.google.com/file/d/1XmPdNDqUplegsBc0yLRUMpx_TWuL6stC/view?usp=drive_link)
+![Confusion Matrix](data/images/confusion_matrix_dog_cat.png)
 
 Imagine you have a friend who loves to play a game where they need to identify animals based on pictures. Your friend's job is to look at pictures of animals and tell if they are dogs or cats.
 
@@ -165,7 +165,7 @@ So, in simple terms, the confusion matrix is like a special scoreboard that show
 
 ### Application of Confusion Matrix
 
-![Cofusion Matrix](https://drive.google.com/file/d/1UQYpX16tAKEZAss2UNGuKNgXDKoC4Gp3/view?usp=drive_link)
+![Cofusion Matrix](data/images/confusion_matrix.png)
 
 The confusion matrix is a fundamental tool in machine learning for evaluating the performance of classification models. It helps us understand how well the model is making predictions on different classes (categories) of data. Here are some important applications of the confusion matrix in machine learning:
 
@@ -185,9 +185,9 @@ The confusion matrix is a fundamental tool in machine learning for evaluating th
 
 Overall, the confusion matrix is a versatile tool that helps us gain a deeper understanding of a classification model's performance and make informed decisions when building and improving machine learning models. It provides valuable information to assess the model's accuracy, generalization ability, and areas where it may need improvement.
 
-### What is performance metric's elements such as accuracy, precision, recall (sensitivity), specificity, and F1-score 
+### What is performance metrics elements such as accuracy, precision, recall (sensitivity), specificity, and F1-score 
 
-![Different Performance Metrics](https://drive.google.com/file/d/1WV9yTVp3QnlGlTv-EpS06EUcEe2Iqph2/view?usp=drive_link)
+![Different Performance Metrics](data/images/diff_game.png)
 
 Imagine you have a friend who loves to play different games. Your friend is very competitive and always wants to know how well they are doing in each game. To measure their performance, you use special tools that give you specific scores for different aspects of their gameplay.
 
@@ -211,7 +211,7 @@ In summary, performance metrics are like special tools that give you more detail
 
 ### When we'll use the above performance metrics?
 
-![Perfomance Metrics](https://drive.google.com/file/d/1uPZvijPozbF9l3iYZkYs5iffepgcMYzx/view?usp=drive_link)
+![Perfomance Metrics](data/images/red_blue_ball.png)
 
 Imagine you and your friend are playing a game with colored balls. Some of the balls are blue (positive), and some are red (negative). Your friend's job is to separate the blue balls from the red balls.
 
@@ -231,7 +231,7 @@ By using these special numbers, you can see how well your friend is doing in the
 
 ### What is Logistic Regression 
 
-![Logistic Regression](https://drive.google.com/file/d/1WmOOV6vP6JIm9AE8LseIweb6yb_LdBgH/view?usp=drive_link)
+![Logistic Regression](data/images/logistic_regression.png)
 
 Imagine you have a magical box that can tell you if a fruit is an apple or an orange. You have a bunch of fruits, and you want to know if each fruit is an apple (1) or an orange (0).
 
@@ -247,7 +247,7 @@ In summary, logistic regression is like a magical box that predicts if a fruit i
 
 ### What is Ridge Regression
 
-![Ridge Regression](https://drive.google.com/file/d/1tVzu-Jb1XWIpdgfSd92rQdVPKlgJN2Ev)
+![Ridge Regression](data/images/rigid_regrassion.png)
 
 Imagine you have a magical pen that can draw straight lines on a graph. Your goal is to draw a line that best fits a bunch of points scattered on the graph. But, there's a catch: you want the line to be not too steep or too wobbly.
 
@@ -267,7 +267,7 @@ In summary, Ridge Regression is like a magical tool that helps you draw the best
 
 ### What is Lasso Regression
 
-![Lasso Regression](https://drive.google.com/file/d/1Hsl34iB7q9eBGaosR6LehIvmQcsbb5gX/view?usp=drive_link)
+![Lasso Regression](data/images/lasso_regression.png)
 
 Imagine you have another magical pen that can draw straight lines on a graph. Like before, your goal is to draw a line that best fits a bunch of points scattered on the graph. But now, you want the line to be even simpler by making some of the coefficients (the numbers that determine the slope of the line) equal to zero.
 
@@ -287,7 +287,7 @@ In summary, Lasso Regression is like a magical tool that helps you draw the best
 
 ### Explain Grid Search in Cross-Validation
 
-![Grid Search In Cross-Validation](https://drive.google.com/file/d/1OYlqt4PLh8G4C1bL9e3fiAuRb-oIsfWp/view?usp=drive_link)
+![Grid Search In Cross-Validation](data/images/simple_maze.png)
 
 Imagine you are on a treasure hunt in a big maze, and you have to find the hidden treasure. But, you're not sure which path is the best to take. There are many different paths you can try, and you want to choose the one that leads you to the treasure with the fewest wrong turns.
 
@@ -307,7 +307,7 @@ In summary, Grid Search in Cross-Validation is like having a magical map that he
 
 ### Explain Random Search in Cross-Validation
 
-![Random Search In Cross-Validation](https://drive.google.com/file/d/1A7dROJlvXlD6o6gDZk3sdKVx4SzhRftV/view?usp=drive_link)
+![Random Search In Cross-Validation](data/images/complex_maze.png)
 
 Imagine you are on a treasure hunt again in a big maze, but this time, the maze is even more complex, and there are many more possible paths to explore. You're looking for the hidden treasure, but you're not sure which direction to go because there are too many paths to try.
 
