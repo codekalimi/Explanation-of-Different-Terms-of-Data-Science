@@ -13,3 +13,5 @@
 
 3.  Here's my code to solve FizzBuzz. 
     Is this accurate, and if not, can you guide me in getting the correct answer?
+
+    ![Chatgpt for Data Science](data/images/chatgpt_for_data_science.webp)
